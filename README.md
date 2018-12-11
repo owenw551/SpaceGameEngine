@@ -23,7 +23,7 @@ Thanks for reading!
 
 ## Resources I have found helpful
 
-https://github.com/owenw551/BirchEngine
+https://github.com/carlbirch/BirchEngine
 Link to the code for the aforementioned tutorial series
 
 http://gameprogrammingpatterns.com/
