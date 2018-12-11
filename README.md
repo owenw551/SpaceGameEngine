@@ -13,9 +13,11 @@ This engine is an extension and reworking of that project. Since the tutorial se
  * more advanced map functionality
  * mouse functionality
  * and more!
+ 
+A couple of quick notes:
 
-I hope to keep what I am currently working on in a file called CurrentWork.
-
+* I hope to keep what I am currently working on in a file called CurrentWork.
+* Building and running the project at any point will most likely load up a test of the latest feature I have added, which is why the resultant program may seem a bit ... incongruous?
 
 Feel free to use this code however you wish.
 
