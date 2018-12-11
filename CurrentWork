@@ -1,0 +1,10 @@
+##Things I am adding or working on
+
+(Edited 11/12/18)
+
+The following are features that I hope to add in the near future (in loose order)
+
+* Support for non axis-aligned rectangular collision
+* Support for circular collision
+* Reworking the controller components so that input follows the Command pattern
+* Adding a State Component to entities
