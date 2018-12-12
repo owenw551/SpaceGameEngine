@@ -7,7 +7,7 @@ I began the project by following the incredibly helpful tutorial series called "
 
 This engine is an extension and reworking of that project. Since the tutorial series stopped, I have added:  
 
- * Improved vector functionality 
+ * Improved vector mathematics 
  * a reworking of all components 
  * a scene manager
  * more advanced map functionality
@@ -17,6 +17,7 @@ This engine is an extension and reworking of that project. Since the tutorial se
 A couple of quick notes:
 
 * I hope to keep what I am currently working on in a file called CurrentWork.
+* The project uses x86 SDL binaries, but I've noticed the project may default to building x64 on your machine and not build correctly. If this happens (you'll recieve errors about not beig able to find to the SDL.h header file) switch to x86 and it should work.
 * Building and running the project at any point will most likely load up a test of the latest feature I have added, which is why the resultant program may seem a bit ... incongruous?
 
 Feel free to use this code however you wish.
