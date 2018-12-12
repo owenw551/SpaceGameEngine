@@ -22,7 +22,7 @@ void GameplayScene::load(std::string mappath, const char* texturepath)
 
 	//add player
 	Entity& newPlayer = manager.addEntity();
-	newPlayer.addComponent<TransformComponent>(0.0f, 0.0f, 16, 32, 1.0f);
+	newPlayer.addComponent<TransformComponent>(100.0f, 100.0f, 16, 32, 1.0f);
 	newPlayer.addComponent<VelocityComponent>(0.0f, 0.0f, 1.0f, 5.0f);
 	newPlayer.addComponent<AccelerationComponent>(0.0f, 0.0f, 1.0f, 5.0f);
 	newPlayer.addComponent<SpriteComponent>(0, 0, 16, 32, true,  "Player" , map.getCameraPtr(), assetManager);
