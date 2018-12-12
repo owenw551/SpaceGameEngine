@@ -47,6 +47,7 @@ void GameplayScene::update()
 	manager.update();
 	manager.refresh();
 	frameCount++;
+	//check for collisions with tiles with collision components, currently disabled
 	/*for (auto& a : mapCollisionGroup)
 	{
 		if (Collision::AABB(playerptr->getComponent<CollisionComponent>(), a->getComponent<CollisionComponent>()))
@@ -55,6 +56,7 @@ void GameplayScene::update()
 			playerptr->getComponent<TransformComponent>().setPos(prevPos.getx(), prevPos.gety());
 		}
 	}*/
+	//update camera
 	camera->cameraRect.x = (int)(playerptr->getComponent<TransformComponent>().getx() - camera->midpointX);
 	camera->cameraRect.y = (int)(playerptr->getComponent<TransformComponent>().gety() - camera->midpointY);
 	if (!(camera->mapSmallerThanScreen))
